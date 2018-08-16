@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+<input placeholder="账号" auto-focus bindinput='onChangeAccount'/>
+<input placeholder="密码" password bindinput='onChangePassword'/>
+<button open-type='getUserInfo' bindgetuserinfo='submit' type='primary'>登陆</button>
+</view>
